@@ -39,7 +39,7 @@ public class OtherMethodsDemo {
         RestAssured
                 .given()
                 .header("Authorization", "token " + TOKEN)
-                .when()
+                .when() //
                 .delete("https://api.github.com/repos/kirilx/RestApii")
                 .then()
                 .statusCode(204);
