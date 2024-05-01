@@ -40,7 +40,7 @@ public class OtherMethodsDemo {
                 .given()
                 .header("Authorization", "token " + TOKEN)
                 .when()
-                .delete("https://api.github.com/repos/kirilx/deleteme-patched1")
+                .delete("https://api.github.com/repos/kirilx/RestApii")
                 .then()
                 .statusCode(204);
     }
